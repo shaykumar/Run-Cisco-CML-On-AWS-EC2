@@ -6,7 +6,7 @@ Running CML on EC2 is going to require you to run a baremetal instance on EC2 - 
 https://calculator.aws/#/createCalculator/EC2DedicatedHosts
 
 ! You cannot run CML on regular EC2 instances as nested virtualization is not supported on these instances. Direct access to CPU cores is required for
-CML to function properly. 
+CML to function properly. Note the pricing for baremetal instances and check if it is right for you.
 
 
 
