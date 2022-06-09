@@ -52,7 +52,17 @@ Vmware Fusion Player also does not support exporting the image from OVA to OVF -
     
 # Step 6 - Install AWS CLI 
 
-- You need to have the AWS cli installed locally on your machine to be able to import images into EC2
+In your browser, download the macOS pkg file: https://awscli.amazonaws.com/AWSCLIV2.pkg or visit https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html for instructions
+
+Run your downloaded file and follow the on-screen instructions.
+
+To check that the aws cli is install run the below commands:
+  
+`which aws`
+
+`aws --version`
+   
+If the aws command cannot be found, you might need to restart your terminal or follow the troubleshooting in Troubleshooting AWS CLI errors.
      
 # Step 7 - Get the Acceess Key and Token from AWS Console
     
