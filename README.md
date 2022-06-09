@@ -64,11 +64,11 @@ Vmware Fusion Player also does not support exporting the image from OVA to OVF -
     
 # Step 10 - Create Policy and Role 
        
-`aws iam create-role --role-name vmimport --assume-role-policy-document "file://C:\Users\gdavitiani\Desktop\trust-policy.json"`
+`aws iam create-role --role-name vmimport --assume-role-policy-document "file://<file-path>/trust-policy.json"`
 
-`aws iam put-role-policy --role-name vmimport --policy-name vmimport --policy-document "file://C:\Users\gdavitiani\Desktop\role-policy.json"`
+`aws iam put-role-policy --role-name vmimport --policy-name vmimport --policy-document "file://<file-path>/role-policy.json"`
     
-`aws ec2 import-image --description "Cisco CML" --disk-containers "file://C:\Users\gdavitiani\Desktop\containers.json"`
+`aws ec2 import-image --description "Cisco CML" --disk-containers "file://<file-path>/containers.json"`
     
 `aws ec2 describe-import-image-tasks --import-task-ids import-ami-0143a066d6e195d3b`
 
