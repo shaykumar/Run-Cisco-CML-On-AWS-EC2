@@ -41,7 +41,7 @@ Vmware Fusion Player also does not support exporting the image from OVA to OVF -
 - Follow the prompts and setup the admin and sysadmin accounts
 - Once installation is complete, you will be able to browse to the <IP-Address>:9090 to get to the admin console. Use the sysadmin username / password here 
 - You can browse the CML GUI on port 443.
-- Login for CML here - https://<ip-address>:443 
+- Login for CML here - https://ip-address:443 
 - Use the admin/password account here for login
 
     
